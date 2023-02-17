@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actions with cats</title>
+</head>
+<body>
+<form action="/cats/create">
+    <h1>Створити нового кота</h1>
+    <div>
+        <input type="text" name="ccatid" id="ccatid">
+        <label for="ccatid">ID</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="ccatname" id="ccatname">
+        <label for="ccatname">Ім'я</label>
+    </div>
+    <div>
+        <input type="text" name="ccatbreed" id="ccatbreed">
+        <label for="ccatbreed">Порода</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="ccatage" id="ccatage">
+        <label for="ccatage">Вік</label>
+    </div>
+    <button  type="submit">Створити</button>
+</form>
+
+<form action="/cats/update">
+    <h1>Змінити данні про кота</h1>
+    <div>
+        <input type="text" name="ucatid" id="ucatid">
+        <label for="ucatid">ID</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="ucatname" id="ucatname">
+        <label for="ucatname">Ім'я</label>
+    </div>
+    <div>
+        <input type="text" name="ucatbreed" id="ucatbreed">
+        <label for="ucatbreed">Порода</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="ucatage" id="ucatage">
+        <label for="ucatage">Вік</label>
+    </div>
+    <button  type="submit">Змінити</button>
+</form>
+
+<form action="/cats/delete">
+    <h1>Видалити данні про кота</h1>
+    <div>
+        <input type="text" name="catid" id="catid">
+        <label for="catid">ID</label>
+    </div>
+    <button  type="submit">Видалити</button>
+</form>
+</body>
+</html>

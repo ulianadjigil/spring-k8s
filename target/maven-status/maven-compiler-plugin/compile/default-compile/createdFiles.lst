@@ -1,0 +1,9 @@
+com/example/ipzlab3/controller/DogsController.class
+com/example/ipzlab3/IpzLab3Application.class
+com/example/ipzlab3/repository/DAO.class
+com/example/ipzlab3/repository/InterfaceDAO.class
+com/example/ipzlab3/config/StaticResourceConfig.class
+com/example/ipzlab3/logic/Cat.class
+com/example/ipzlab3/logic/Dog.class
+com/example/ipzlab3/controller/CatsController.class
+com/example/ipzlab3/repository/Data.class

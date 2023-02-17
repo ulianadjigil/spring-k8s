@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: spring-backend
+  name: spring-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: spring-backend
+  template:
+    metadata:
+      labels:
+        service: spring-backend
+    spec:
+      containers:
+        - image: spring-backend-twodb:1.4
+          name: backend
+          ports:
+            - containerPort: 8082
+      restartPolicy: Always
+

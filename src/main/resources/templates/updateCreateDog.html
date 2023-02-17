@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actions with Dogs</title>
+</head>
+<body>
+<form action="/dogs/create">
+    <h1>Створити нову собаку</h1>
+    <div class="form-floating">
+        <input type="text" name="cdogname" id="cdogname">
+        <label for="cdogname">Ім'я</label>
+    </div>
+    <div>
+        <input type="text" name="cdogbreed" id="cdogbreed">
+        <label for="cdogbreed">Порода</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="cdogage" id="cdogage">
+        <label for="cdogage">Вік</label>
+    </div>
+    <button  type="submit">Створити</button>
+</form>
+
+<form action="/dogs/update">
+    <h1>Змінити данні про собаку</h1>
+    <div>
+        <input type="text" name="udogid" id="udogid">
+        <label for="udogid">ID</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="udogname" id="udogname">
+        <label for="udogname">Ім'я</label>
+    </div>
+    <div>
+        <input type="text" name="udogbreed" id="udogbreed">
+        <label for="udogbreed">Порода</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="udogage" id="udogage">
+        <label for="udogage">Вік</label>
+    </div>
+    <button  type="submit">Змінити</button>
+</form>
+
+<form action="/dogs/delete">
+    <h1>Видалити данні про собаку</h1>
+    <div>
+        <input type="text" name="dogid" id="dogid">
+        <label for="dogid">ID</label>
+    </div>
+    <button  type="submit">Видалити</button>
+</form>
+</body>
+</html>
