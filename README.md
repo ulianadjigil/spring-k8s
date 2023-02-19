@@ -10,3 +10,8 @@ kubectl apply ./kuber
 ```
 Backend is running on port 8082. 
 We can see lists of animals and perform CRUD operations.
+Full resource address is: 
+```bash
+http://<backend-service-ip>:8082/dogs/all
+http://<backend-service-ip>:8082/cats/all
+```
