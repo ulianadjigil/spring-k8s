@@ -8,4 +8,5 @@ To run the project:
 ```bash
 kubectl apply ./kuber
 ```
-kubectl apply ./kuber
+Backend is running on port 8082. 
+We can see lists of animals and perform CRUD operations.
